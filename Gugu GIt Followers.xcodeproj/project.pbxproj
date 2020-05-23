@@ -13,6 +13,8 @@
 		96789E4E247884D500FC7E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96789E4C247884D500FC7E51 /* LaunchScreen.storyboard */; };
 		96C4335E2479C9E500EE191E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4335D2479C9E500EE191E /* SearchViewController.swift */; };
 		96C433602479CA1400EE191E /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4335F2479CA1400EE191E /* FavoritesListViewController.swift */; };
+		96C433622479CE3B00EE191E /* GPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C433612479CE3B00EE191E /* GPButton.swift */; };
+		96C433642479D0C000EE191E /* GPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C433632479D0C000EE191E /* GPTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		96789E4F247884D500FC7E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C4335D2479C9E500EE191E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		96C4335F2479CA1400EE191E /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
+		96C433612479CE3B00EE191E /* GPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPButton.swift; sourceTree = "<group>"; };
+		96C433632479D0C000EE191E /* GPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				96789E43247884D100FC7E51 /* SceneDelegate.swift */,
 				96C4335D2479C9E500EE191E /* SearchViewController.swift */,
 				96C4335F2479CA1400EE191E /* FavoritesListViewController.swift */,
+				96C433612479CE3B00EE191E /* GPButton.swift */,
+				96C433632479D0C000EE191E /* GPTextField.swift */,
 				96789E4A247884D500FC7E51 /* Assets.xcassets */,
 				96789E4C247884D500FC7E51 /* LaunchScreen.storyboard */,
 				96789E4F247884D500FC7E51 /* Info.plist */,
@@ -139,7 +145,9 @@
 			files = (
 				96C4335E2479C9E500EE191E /* SearchViewController.swift in Sources */,
 				96789E42247884D100FC7E51 /* AppDelegate.swift in Sources */,
+				96C433622479CE3B00EE191E /* GPButton.swift in Sources */,
 				96C433602479CA1400EE191E /* FavoritesListViewController.swift in Sources */,
+				96C433642479D0C000EE191E /* GPTextField.swift in Sources */,
 				96789E44247884D100FC7E51 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
