@@ -11,6 +11,9 @@
 		96614F5F247A61FD000169B6 /* GPBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96614F5E247A61FD000169B6 /* GPBodyLabel.swift */; };
 		96614F61247A62A8000169B6 /* GPAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96614F60247A62A8000169B6 /* GPAlertViewController.swift */; };
 		96614F63247A68AA000169B6 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96614F62247A68AA000169B6 /* UIViewController+Ext.swift */; };
+		96614F6A247A6EB0000169B6 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96614F69247A6EB0000169B6 /* Follower.swift */; };
+		96614F6C247A6F51000169B6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96614F6B247A6F51000169B6 /* User.swift */; };
+		96614F6F247A72B0000169B6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96614F6E247A72B0000169B6 /* NetworkManager.swift */; };
 		96789E42247884D100FC7E51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96789E41247884D100FC7E51 /* AppDelegate.swift */; };
 		96789E44247884D100FC7E51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96789E43247884D100FC7E51 /* SceneDelegate.swift */; };
 		96789E4B247884D500FC7E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96789E4A247884D500FC7E51 /* Assets.xcassets */; };
@@ -27,6 +30,9 @@
 		96614F5E247A61FD000169B6 /* GPBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPBodyLabel.swift; sourceTree = "<group>"; };
 		96614F60247A62A8000169B6 /* GPAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPAlertViewController.swift; sourceTree = "<group>"; };
 		96614F62247A68AA000169B6 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		96614F69247A6EB0000169B6 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		96614F6B247A6F51000169B6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		96614F6E247A72B0000169B6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		96789E3E247884D100FC7E51 /* Gugu GIt Followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gugu GIt Followers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96789E41247884D100FC7E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96789E43247884D100FC7E51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +98,23 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		96614F68247A6E9D000169B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96614F69247A6EB0000169B6 /* Follower.swift */,
+				96614F6B247A6F51000169B6 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96614F6D247A7298000169B6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				96614F6E247A72B0000169B6 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		96789E35247884D100FC7E51 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +134,8 @@
 		96789E40247884D100FC7E51 /* Gugu GIt Followers */ = {
 			isa = PBXGroup;
 			children = (
+				96614F6D247A7298000169B6 /* Managers */,
+				96614F68247A6E9D000169B6 /* Model */,
 				96614F67247A6B04000169B6 /* Support */,
 				96614F66247A6AA6000169B6 /* Extensions */,
 				96614F65247A6A80000169B6 /* Custom Views */,
@@ -190,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96614F6C247A6F51000169B6 /* User.swift in Sources */,
 				96C4335E2479C9E500EE191E /* SearchViewController.swift in Sources */,
 				96789E42247884D100FC7E51 /* AppDelegate.swift in Sources */,
 				96C433622479CE3B00EE191E /* GPButton.swift in Sources */,
@@ -197,7 +223,9 @@
 				96C433662479D90500EE191E /* FollowerListViewController.swift in Sources */,
 				96C433602479CA1400EE191E /* FavoritesListViewController.swift in Sources */,
 				96614F5F247A61FD000169B6 /* GPBodyLabel.swift in Sources */,
+				96614F6A247A6EB0000169B6 /* Follower.swift in Sources */,
 				96614F61247A62A8000169B6 /* GPAlertViewController.swift in Sources */,
+				96614F6F247A72B0000169B6 /* NetworkManager.swift in Sources */,
 				96C433642479D0C000EE191E /* GPTextField.swift in Sources */,
 				96614F5D247A60A0000169B6 /* GPTitleLabel.swift in Sources */,
 				96789E44247884D100FC7E51 /* SceneDelegate.swift in Sources */,
