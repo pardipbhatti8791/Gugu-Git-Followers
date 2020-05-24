@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96614F5D247A60A0000169B6 /* GPTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96614F5C247A60A0000169B6 /* GPTitleLabel.swift */; };
+		96614F5F247A61FD000169B6 /* GPBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96614F5E247A61FD000169B6 /* GPBodyLabel.swift */; };
+		96614F61247A62A8000169B6 /* GPAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96614F60247A62A8000169B6 /* GPAlertViewController.swift */; };
+		96614F63247A68AA000169B6 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96614F62247A68AA000169B6 /* UIViewController+Ext.swift */; };
 		96789E42247884D100FC7E51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96789E41247884D100FC7E51 /* AppDelegate.swift */; };
 		96789E44247884D100FC7E51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96789E43247884D100FC7E51 /* SceneDelegate.swift */; };
 		96789E4B247884D500FC7E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96789E4A247884D500FC7E51 /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96614F5C247A60A0000169B6 /* GPTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTitleLabel.swift; sourceTree = "<group>"; };
+		96614F5E247A61FD000169B6 /* GPBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPBodyLabel.swift; sourceTree = "<group>"; };
+		96614F60247A62A8000169B6 /* GPAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPAlertViewController.swift; sourceTree = "<group>"; };
+		96614F62247A68AA000169B6 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		96789E3E247884D100FC7E51 /* Gugu GIt Followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gugu GIt Followers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96789E41247884D100FC7E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96789E43247884D100FC7E51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +51,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96614F64247A6A55000169B6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				96C4335D2479C9E500EE191E /* SearchViewController.swift */,
+				96C4335F2479CA1400EE191E /* FavoritesListViewController.swift */,
+				96C433652479D90500EE191E /* FollowerListViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		96614F65247A6A80000169B6 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				96C433632479D0C000EE191E /* GPTextField.swift */,
+				96614F60247A62A8000169B6 /* GPAlertViewController.swift */,
+				96614F5C247A60A0000169B6 /* GPTitleLabel.swift */,
+				96614F5E247A61FD000169B6 /* GPBodyLabel.swift */,
+				96C433612479CE3B00EE191E /* GPButton.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		96614F66247A6AA6000169B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				96614F62247A68AA000169B6 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		96614F67247A6B04000169B6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				96789E4A247884D500FC7E51 /* Assets.xcassets */,
+				96789E4C247884D500FC7E51 /* LaunchScreen.storyboard */,
+				96789E41247884D100FC7E51 /* AppDelegate.swift */,
+				96789E43247884D100FC7E51 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		96789E35247884D100FC7E51 = {
 			isa = PBXGroup;
 			children = (
@@ -62,15 +111,10 @@
 		96789E40247884D100FC7E51 /* Gugu GIt Followers */ = {
 			isa = PBXGroup;
 			children = (
-				96789E41247884D100FC7E51 /* AppDelegate.swift */,
-				96789E43247884D100FC7E51 /* SceneDelegate.swift */,
-				96C4335D2479C9E500EE191E /* SearchViewController.swift */,
-				96C4335F2479CA1400EE191E /* FavoritesListViewController.swift */,
-				96C433652479D90500EE191E /* FollowerListViewController.swift */,
-				96C433612479CE3B00EE191E /* GPButton.swift */,
-				96C433632479D0C000EE191E /* GPTextField.swift */,
-				96789E4A247884D500FC7E51 /* Assets.xcassets */,
-				96789E4C247884D500FC7E51 /* LaunchScreen.storyboard */,
+				96614F67247A6B04000169B6 /* Support */,
+				96614F66247A6AA6000169B6 /* Extensions */,
+				96614F65247A6A80000169B6 /* Custom Views */,
+				96614F64247A6A55000169B6 /* Screens */,
 				96789E4F247884D500FC7E51 /* Info.plist */,
 			);
 			path = "Gugu GIt Followers";
@@ -149,9 +193,13 @@
 				96C4335E2479C9E500EE191E /* SearchViewController.swift in Sources */,
 				96789E42247884D100FC7E51 /* AppDelegate.swift in Sources */,
 				96C433622479CE3B00EE191E /* GPButton.swift in Sources */,
+				96614F63247A68AA000169B6 /* UIViewController+Ext.swift in Sources */,
 				96C433662479D90500EE191E /* FollowerListViewController.swift in Sources */,
 				96C433602479CA1400EE191E /* FavoritesListViewController.swift in Sources */,
+				96614F5F247A61FD000169B6 /* GPBodyLabel.swift in Sources */,
+				96614F61247A62A8000169B6 /* GPAlertViewController.swift in Sources */,
 				96C433642479D0C000EE191E /* GPTextField.swift in Sources */,
+				96614F5D247A60A0000169B6 /* GPTitleLabel.swift in Sources */,
 				96789E44247884D100FC7E51 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
