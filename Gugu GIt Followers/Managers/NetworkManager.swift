@@ -26,16 +26,16 @@ class NetworkManager {
         
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             if let _ = error {
-                completed(nil, "Unable to complete your request, Please check your internet connection")
+                completed(nil, "Unable to complete your request, Please check your internet connection.")
             }
             
             guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
-                completed(nil, "Invalid response from the server, Please try again")
+                completed(nil, "Invalid response from the server, Please try again.")
                 return
             }
             
             guard let data = data else {
-                completed(nil, "Data recieved from the server is invalid")
+                completed(nil, "Data recieved from the server is invalid. Please try again.")
                 return
             }
             
@@ -45,7 +45,7 @@ class NetworkManager {
                 let followers = try decoder.decode([Follower].self, from: data)
                 completed(followers, nil)
             } catch {
-                completed(nil, "Something wen wrong")
+                completed(nil, "Data recieved from the server is invalid. Please try again.")
             }
         }
         
